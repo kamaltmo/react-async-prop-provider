@@ -20,6 +20,13 @@ A React Component for intelligently changing a child components props depending 
   * Type: `Object`
   * Required: **No**
   * Usage: The additional props that you would like to pass if the action fails.
+* Children:
+  * Type: `Function`
+  * Required: **Yes**
+  * Params:
+    * `actionHandler` (`Function`) - fires the provided action when called.
+    * `asyncProps` (`Object`) - The props for the current action state.
+  * Usage: This functions result is used as the return for `AsyncPropProvider`. This pattern is know as `render props` learn more [here](https://reactjs.org/docs/render-props.html)
 
 ## Example
 
