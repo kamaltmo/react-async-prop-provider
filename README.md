@@ -1,3 +1,7 @@
+[![npm version](https://badge.fury.io/js/react-async-prop-provider.svg)](https://www.npmjs.com/package/react-async-prop-provider)
+[![Build Status](https://travis-ci.org/kamaltmo/react-async-prop-provider.svg?branch=master)](https://travis-ci.org/kamaltmo/react-async-prop-provider)
+[![Coverage Status](https://coveralls.io/repos/github/kamaltmo/react-async-prop-provider/badge.svg?branch=master)](https://coveralls.io/github/kamaltmo/react-async-prop-provider?branch=master)
+
 # react-async-prop-provider
 
 A React Component for intelligently changing a child components props depending on the state of a promise.
