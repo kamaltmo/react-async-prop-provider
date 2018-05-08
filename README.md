@@ -2,6 +2,10 @@
 
 A React Component for intelligently changing a child components props depending on the state of a promise.
 
+## But, why ?
+
+There are many component libraries that out there that provide developers with beautiful stateless components such as buttons. This allows you to easily make these components react to the state of an async function they fire without needing to much boiler plate or using `Redux`.
+
 ## Props
 
 * Action:
