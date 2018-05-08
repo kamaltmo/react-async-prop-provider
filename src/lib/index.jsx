@@ -46,7 +46,7 @@ class AsyncPropProvider extends Component {
 
   render() {
     const handler =
-      this.state.promiseState === "pending" ? undefined : this.actionHandler;
+      this.state.promiseState === "pending" ? () => {} : this.actionHandler;
     return this.props.children(handler, this.asyncProps());
   }
 }
