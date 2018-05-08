@@ -30,6 +30,19 @@ A React Component for intelligently changing a child components props depending 
 
 ## Example
 
+#### Install
+
+```
+npm i react-async-prop-provider
+```
+
+#### Usage
+
+```
+import AsyncPropProvider from 'react-async-prop-provider
+```
+
+
 A Stateless `Button` component from the [Semantic-UI-React](https://github.com/Semantic-Org/Semantic-UI-React) component library wrapped in `AsyncPropProvider`. This allows the buttons to change its presentation depending on the state of async function it fires.
 
 ```
