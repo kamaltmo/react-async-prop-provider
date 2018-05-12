@@ -12,7 +12,14 @@
     "test": "jest",
     "test:coverage": "jest --coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
   },
-  "keywords": [],
+  "keywords": [
+    "async",
+    "asynchronous",
+    "prop",
+    "button",
+    "react",
+    "AsyncPropProvider"
+  ],
   "license": "MIT",
   "peerDependencies": {
     "react": "^15.3.0 || ^16.2.0",
