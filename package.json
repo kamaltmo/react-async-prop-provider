@@ -1,6 +1,6 @@
 {
   "name": "react-async-prop-provider",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A React Component for intelligently changing a child components props depending on the state of a promise.",
   "main": "lib/index.js",
   "scripts": {
